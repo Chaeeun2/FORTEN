@@ -3,7 +3,8 @@ body {
     background: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR',
+        sans-serif;
 }
 
 #header {
@@ -40,12 +41,12 @@ body {
 .time {
     position: absolute;
     top: 0;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 2.5em;
     color: white;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 0.2em;
-    padding: 6px 8px 3px 8px;
+    padding: 4px 10px 3px 8px;
     margin: 0.6em;
 }
 
@@ -88,12 +89,12 @@ body {
 .studytitle {
     font-weight: 500;
     font-size: 3em;
-    margin: 0.4em 0;
+    margin: 0.3em 0;
 }
 
 .nickname {
     font-weight: 400;
     font-size: 2.2em;
-    margin: 0.5em 0;
+    margin: 0.3em 0;
     color: #9F9F9F;
 }
