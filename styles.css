@@ -50,10 +50,10 @@ body {
 }
 
 .keyword {
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 600;
     border-radius: 0.2em;
-    padding: 6px 8px 4px 8px;
+    padding: 6px 10px;
     margin-right: 10px;
 }
 
