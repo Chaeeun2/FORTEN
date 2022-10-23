@@ -1,11 +1,11 @@
 //모달
 $("#plusnav").click(function () {
     if ($('#modalbg').is(":hidden")) {
-        $('#modalbg').show();
+        $('#modalbg').fadeIn('fast');
         $("#plusicon").attr("src", "resource/home/plusicon2.png");
     }
     else {
-        $('#modalbg').hide();
+        $('#modalbg').fadeOut('fast');
         $("#plusicon").attr("src", "resource/home/plusicon1.png");
     }
 });
