@@ -1,11 +1,16 @@
 //모달
 $("#plusnav").click(function () {
-    if ($('#modalbg').is(":hidden")) {
-        $('#modalbg').fadeIn('fast');
+    if ($('#modal').is(":hidden")) {
+        $('#modal').fadeIn('fast');
         $("#plusicon").attr("src", "resource/home/plusicon2.png");
     }
     else {
-        $('#modalbg').fadeOut('fast');
+        $('#modal').fadeOut('fast');
         $("#plusicon").attr("src", "resource/home/plusicon1.png");
     }
+});
+
+$(".modalbg").click(function () {
+    $('#modal').fadeOut('fast');
+    $("#plusicon").attr("src", "resource/home/plusicon1.png");
 });

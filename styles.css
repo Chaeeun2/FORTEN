@@ -22,7 +22,7 @@ p {
     padding: 9em 3em 2em 3em;
     background: white;
     width: 100vw;
-    z-index: 97;
+    z-index: 96;
     border-bottom: 1px solid #e2e2e2;
 }
 
@@ -59,14 +59,22 @@ p {
     width: 3.5em;
 }
 
-#modalbg {
+#modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 97;
+    top: 0;
+    display: none;
+}
+
+.modalbg {
     background: rgba(0, 0, 0, 0.6);
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 98;
+    z-index: 97;
     top: 0;
-    display: none;
 }
 
 .modal {
@@ -78,6 +86,7 @@ p {
     left: 0;
     padding: 2em 4.5em;
     box-sizing: border-box;
+    z-index: 98;
 }
 
 .modaltitle {
