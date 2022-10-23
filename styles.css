@@ -11,17 +11,17 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 7em 3em 2em 3em;
+    padding: 8.5em 3em 2em 3em;
     background: white;
     width: 100vw;
 }
 
 #header img {
-    width: 16em;
+    width: 17em;
 }
 
 #home01 {
-    margin-top: 14em;
+    margin-top: 15em;
     padding: 0 3em;
 }
 
