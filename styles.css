@@ -13,6 +13,7 @@ body {
 
 p {
     margin: 0;
+    color: #1f1f1f;
 }
 
 #header {
@@ -23,7 +24,7 @@ p {
     background: white;
     width: 100vw;
     z-index: 96;
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 2px solid #e2e2e2;
 }
 
 #header img {
@@ -38,7 +39,7 @@ p {
     left: 0;
     background: white;
     width: 87vw;
-    border-top: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
     z-index: 99;
     padding: 2em 4em 5.5em 4em;
 }
@@ -94,6 +95,7 @@ p {
     font-size: 2.7em;
     font-weight: 600;
     margin: 0.8em 0 0.5em 0;
+    letter-spacing: -0.02em;
 }
 
 .modaltxt {
@@ -101,6 +103,7 @@ p {
     font-weight: 500;
     padding: 1em 0;
     line-height: 1.5;
+    letter-spacing: -0.02em;
 }
 
 .modaltxt .des {
@@ -147,25 +150,27 @@ p {
 .studylarge .time {
     position: absolute;
     top: 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2.5em;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
     border-radius: 0.2em;
     padding: 0px 10px 3px 8px;
     margin: 0.6em;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 .studysmall .time {
     position: absolute;
     top: 0;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.8em;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
     border-radius: 0.2em;
     padding: 0px 10px 3px 8px;
     margin: 0.6em;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 
 .keyword {
