@@ -27,7 +27,7 @@
             <p class="navtxt">스토어</p>
         </div>
 
-        <div id="homenav"><img src="resource/home/plusicon.png">
+        <div id="homenav" onclick="modal_visibility()"><img src="resource/home/plusicon.png">
         </div>
 
         <div id="homenav"><img class="navicon" src="resource/home/followicon.png">
@@ -36,6 +36,17 @@
 
         <div id="homenav"><img class="navicon" src="resource/home/myicon.png">
             <p class="navtxt">MY</p>
+        </div>
+    </div>
+
+    <div id="modalbg">
+        <div class="modal">
+            <p class="modaltitle">공부 시작하기</p>
+            <p class="modaltxt" style="border-bottom: 1px solid #e1e1e1">스터디윗미<br><span class="des">내가 캠을 켜고, 다른 포테너들이
+                    시청합니다.</span></p>
+            <p class="modaltxt" style="border-bottom: 1px solid #e1e1e1">그룹스터디<br><span class="des">여러명의 포테너가 함께 캠을 켜고
+                    공부합니다.</span></p>
+            <p class="modaltxt">게시<br><span class="des">공부를 인증하거나 정보를 공유해보세요.</span></p>
         </div>
     </div>
 
@@ -168,6 +179,8 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
