@@ -14,3 +14,5 @@ $('.following').click(function () {
     $('.follow').fadeIn(150);
     $('.following').fadeOut(150);
 });
+
+$("html").animate({ "opacity": "1" }, 400);

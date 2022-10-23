@@ -16,6 +16,10 @@ p {
     color: #1f1f1f;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     position: fixed;
     top: 0;
