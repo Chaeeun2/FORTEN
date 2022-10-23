@@ -43,7 +43,11 @@ p {
     padding: 2em 4em 5.5em 4em;
 }
 
-#homenav {
+#homenav,
+#storenav,
+#plusnav,
+#follownav,
+#mynav {
     text-align: center;
 }
 
