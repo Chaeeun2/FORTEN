@@ -1,12 +1,11 @@
 //모달
-function modal_visibility() {
-    var e = document.getElementById("modalbg");
-    if (e.style.display == 'none') {
-        e.style.display = 'block'
-        document.body.style = 'overflow: hidden'
-    } else {
-        e.style.display = 'none';
-        document.body.style = 'overflow: auto'
+$("#plusnav").click(function () {
+    if ($('#modalbg').is(":hidden")) {
+        $('#modalbg').show();
+        $("#plusicon").attr("src", "resource/home/plusicon2.png");
     }
-}
-
+    else {
+        $('#modalbg').hide();
+        $("#plusicon").attr("src", "resource/home/plusicon1.png");
+    }
+});
