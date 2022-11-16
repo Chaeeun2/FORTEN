@@ -16,3 +16,7 @@ $('.following').click(function () {
 });
 
 $("html").animate({ "opacity": "1" }, 400);
+
+
+let chat = document.querySelector('#chat');
+chat.scrollTop = chat.scrollHeight;
