@@ -14,3 +14,5 @@ $(".modalbg").click(function () {
     $('#modal').fadeOut('fast');
     $("#plusicon").attr("src", "resource/home/plusicon1.png");
 });
+
+$("html").animate({ "opacity": "1" }, 400);
