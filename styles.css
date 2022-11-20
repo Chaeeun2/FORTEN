@@ -15,7 +15,7 @@ html {
     opacity: 0;
 }
 
-p {
+#home p {
     margin: 0;
     color: #1f1f1f;
 }
@@ -119,43 +119,43 @@ a {
     color: #888888;
 }
 
-#home01 {
+#home #home01 {
     margin-top: 19em;
     padding: 0 3em;
 }
 
-#home02 {
+#home #home02 {
     margin-top: 5em;
     padding: 0 3em;
     margin-bottom: 18em;
 }
 
-.title {
+#home .title {
     margin-bottom: 0.85em;
     font-size: 3.3em;
     font-weight: 700;
     letter-spacing: -0.05em;
 }
 
-.studylarge .studyimg {
+#home .studylarge .studyimg {
     width: 100%;
     border-radius: 0.6em;
     margin-bottom: 2.5em;
 }
 
-.studysmall .studyimg {
+#home .studysmall .studyimg {
     width: 100%;
     border-radius: 0.5em;
     margin-bottom: 1.5em;
 }
 
-.studysmall .imgwrap {
+#home .studysmall .imgwrap {
     position: relative;
     width: 40%;
     margin-right: 2.5em;
 }
 
-.studylarge .time {
+#home .studylarge .time {
     position: absolute;
     top: 0;
     font-weight: 600;
@@ -168,7 +168,7 @@ a {
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
-.studysmall .time {
+#home .studysmall .time {
     position: absolute;
     top: 0;
     font-weight: 500;
@@ -181,7 +181,7 @@ a {
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 
-.keyword {
+#home .keyword {
     font-size: 1.5em;
     font-weight: 600;
     border-radius: 0.2em;
@@ -189,47 +189,47 @@ a {
     margin-right: 8px;
 }
 
-.orange {
+#home .orange {
     background: #FFAF38;
     color: black;
 }
 
-.black {
+#home .black {
     background: black;
     color: #FFAF38;
 }
 
-.people {
+#home .people {
     margin-left: 20px;
     display: inline-block;
     font-size: 1.35em;
 }
 
-.peopleicon {
+#home .peopleicon {
     width: 1.5em;
     display: inline-block;
     vertical-align: middle;
     margin-right: 7px;
 }
 
-.peopleicon2 {
+#home .peopleicon2 {
     width: 2.2em;
     display: inline-block;
     vertical-align: middle;
     margin-right: 7px;
 }
 
-.peoplenumber {
+#home .peoplenumber {
     font-size: 1.4em;
     color: #9F9F9F;
 }
 
-.studysmall .titlewrap {
+#home .studysmall .titlewrap {
     width: 55%;
     margin-top: 0.6em;
 }
 
-.studytitle {
+#home .studytitle {
     font-weight: 500;
     font-size: 2.6em;
     margin: 0.3em 0;
@@ -241,10 +241,389 @@ a {
     word-break: break-all;
 }
 
-.nickname {
+#home .nickname {
     font-weight: 400;
     font-size: 1.9em;
     margin: 0.3em 0;
     color: #9F9F9F;
     letter-spacing: -0.04em;
+}
+
+
+/* 스터디윗미 */
+#withme {
+    background: #141414;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    overflow: hidden;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    height: 100vh;
+    width: 100%;
+}
+
+#withme p {
+    margin: 0;
+    color: white;
+}
+
+#withme #cam {
+    margin-top: 9em;
+    width: 100%;
+    position: fixed;
+}
+
+#withme .time {
+    position: absolute;
+    top: 0;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0px 10px 3px 8px;
+    margin: 1em;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+#withme .rec {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red;
+    z-index: 99;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    border-radius: 100px;
+    display: hidden;
+}
+
+#withme .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2em;
+}
+
+#withme .keyword {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.2em;
+    padding: 4px 10px 7px 10px;
+    margin-right: 8px;
+}
+
+#withme .orange {
+    background: #FFAF38;
+    color: #141414;
+}
+
+#withme .black {
+    background: #383838;
+    color: #FFAF38;
+}
+
+#withme #title {
+    margin-top: 44em;
+    padding: 3em;
+    border-bottom: 2px solid #2d2d2d;
+}
+
+#withme #title .title {
+    margin: 0.5em 0 0.7em 0;
+    font-size: 3em;
+    color: white;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+}
+
+#withme .streamprofile .profile {
+    width: 2.6em;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#withme .streamprofile {
+    position: relative;
+    color: white;
+    font-size: 2.4em;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+#withme .follow {
+    position: absolute;
+    top: 0.2em;
+    right: 0;
+    background: #FFAF38;
+    color: #141414;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    padding: 0.4em 0.8em;
+}
+
+#withme .following {
+    position: absolute;
+    top: 0.2em;
+    right: 0;
+    background: #3A3A3A;
+    color: #787878;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    padding: 0.4em 0.8em;
+    display: none;
+}
+
+#withme #chatting {
+    margin: 3em;
+}
+
+#withme #chatting .title {
+    font-size: 3.3em;
+    color: white;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+#withme #chat {
+    height: 42.5em;
+    overflow: scroll;
+}
+
+#withme #chatting .profile {
+    display: inline-block;
+    width: 4em;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#withme #chatting .name {
+    display: inline-block;
+    font-size: 2.2em;
+    color: #FFAF38;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-right: 30px;
+}
+
+#withme #chatting .content {
+    display: inline-block;
+    font-size: 2.2em;
+    color: white;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+#withme .p_chat {
+    margin: 1.2em 0;
+}
+
+#withme .streamer {
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 0.2em;
+    padding: 4px 10px 7px 10px;
+    margin-left: 10px;
+    background: #3A3A3A;
+    color: #787878;
+}
+
+#withme #message {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #2d2d2d;
+    background: #141414;
+    width: 100%;
+    /*height: 12em;*/
+    padding: 2em 4em 6em 4em;
+}
+
+#withme input {
+    width: 12.3em;
+    font-size: 2.7em;
+    color: white;
+    background: #3A3A3A;
+    border: 0px;
+    border-radius: 0.3em;
+    padding: 0.7em 1em;
+    margin-right: 0.5em;
+}
+
+#withme input:focus {
+    outline: none;
+}
+
+#withme .heart {
+    border: 4px solid #FFAF38;
+    border-radius: 0.3em;
+    background: none;
+    color: #FFAF38;
+    font-size: 2.7em;
+    padding: 0.5em 0.8em;
+    vertical-align: middle;
+    margin-top: -0.4em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#withme .heart img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    margin-right: 0.3em;
+}
+
+#withme .heart:active {
+    background: rgba(255, 175, 56, 0.3)
+}
+
+
+
+/* 그룹스터디 */
+
+#group {
+    background: #141414;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    overflow: hidden;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    height: 100vh;
+}
+
+#group p {
+    margin: 0;
+    color: white;
+}
+
+#group .keyword {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.2em;
+    padding: 4px 10px 7px 10px;
+    margin-right: 8px;
+}
+
+#group .orange {
+    background: #FFAF38;
+    color: #141414;
+}
+
+#group .black {
+    background: #383838;
+    color: #FFAF38;
+}
+
+#group #title {
+    margin-top: 9em;
+    padding: 0.5em 3em 4em 3em;
+}
+
+#group #title .title {
+    margin-top: 0.5em;
+    font-size: 3em;
+    color: white;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+}
+
+#group #cam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#group .cam {
+    width: 49%;
+    height: 46em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.8em;
+}
+
+#group video {
+    width: 100%;
+}
+
+#group .time {
+    position: absolute;
+    top: 0;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0px 10px 3px 8px;
+    margin: 0.6em;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+#group .rec {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red;
+    z-index: 99;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    border-radius: 100px;
+    display: hidden;
+    margin-top: 0.8em;
+}
+
+#group .name {
+    position: absolute;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 2.1em;
+    letter-spacing: -0.03em;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2em 0 0.9em 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+#group .micicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2em;
+}
+
+#group #btns {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#group .btn {
+    margin: 1.5em;
+    width: 7.5em;
+}
+
+#camofficon,
+#micofficon,
+#micoff {
+    display: none;
+}
+
+#group #off {
+    width: 100%;
 }

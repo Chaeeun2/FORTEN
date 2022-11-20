@@ -43,24 +43,24 @@
         <div class="modalbg"></div>
         <div class="modal">
             <p class="modaltitle">공부 시작하기</p>
-            <a href="withme.html">
-                <p class="modaltxt" style="border-bottom: 1px solid #e1e1e1">스터디윗미<br><span class="des">내가 캠을 켜고, 다른
-                        포테너들이
-                        시청합니다.</span></p>
-            </a>
-            <a href="group.html">
-                <p class="modaltxt" style="border-bottom: 1px solid #e1e1e1">그룹스터디<br><span class="des">여러명의 포테너가 함께 캠을
-                        켜고
-                        공부합니다.</span></p>
-            </a>
+            <p class="modaltxt" onclick="withme()" style="border-bottom: 1px solid #e1e1e1">스터디윗미<br><span
+                    class="des">내가 캠을
+                    켜고, 다른
+                    포테너들이
+                    시청합니다.</span></p>
+            <p class="modaltxt" onclick="group()" style="border-bottom: 1px solid #e1e1e1">그룹스터디<br><span
+                    class="des">여러명의 포테너가
+                    함께 캠을
+                    켜고
+                    공부합니다.</span></p>
             <p class="modaltxt">게시<br><span class="des">공부를 인증하거나 정보를 공유해보세요.</span></p>
         </div>
     </div>
 
-    <div id="home01">
-        <a href="withme.html">
+    <div id="home">
+        <div id="home01">
             <p class="title">가장 열공 중인 포테너</p>
-            <div class="studylarge">
+            <div class="studylarge" onclick="withme()">
                 <div style="position: relative;">
                     <img class="studyimg" src="resource/home/img1.png">
                     <div class="time">12시간 17분</div>
@@ -75,13 +75,11 @@
                     <p class="nickname">포텐포테너</p>
                 </div>
             </div>
-        </a>
-    </div>
+        </div>
 
-    <div id="home02">
-        <p class="title">꿈지님께 자극이 될 포테너</p>
-        <div class="studysmall">
-            <a href="withme.html">
+        <div id="home02">
+            <p class="title">꿈지님께 자극이 될 포테너</p>
+            <div class="studysmall" onclick="withme()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img2.jpg">
@@ -97,11 +95,9 @@
                         <p class="nickname">시대생</p>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
 
-        <div class="studysmall">
-            <a href="group.html">
+            <div class="studysmall" onclick="group()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img3.jpg">
@@ -117,11 +113,9 @@
                         <p class="nickname">교수님과제너무많아요</p>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
 
-        <div class="studysmall">
-            <a href="group.html">
+            <div class="studysmall" onclick="group()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img4.jpg">
@@ -137,11 +131,9 @@
                         <p class="nickname">전농동맥북잡이</p>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
 
-        <div class="studysmall">
-            <a href="withme.html">
+            <div class="studysmall" onclick="withme()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img6.jpg">
@@ -157,11 +149,9 @@
                         <p class="nickname">컴퓨터오락가락맨</p>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
 
-        <div class="studysmall">
-            <a href="withme.html">
+            <div class="studysmall" onclick="withme()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img5.jpg">
@@ -177,11 +167,9 @@
                         <p class="nickname">디자인관두겟읍니다</p>
                     </div>
                 </div>
-            </a>
-        </div>
+            </div>
 
-        <div class="studysmall">
-            <a href="group.html">
+            <div class="studysmall" onclick="group()">
                 <div style="display: flex;">
                     <div class="imgwrap">
                         <img class="studyimg" src="resource/home/img7.jpg">
@@ -197,7 +185,202 @@
                         <p class="nickname">하루4시간만잠</p>
                     </div>
                 </div>
-            </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="withme">
+        <div id="cam">
+            <video autoplay muted playsinline loop style="width: 100%">
+                <source src="resource/withme/video3.mp4" type="video/mp4">
+                </source>
+            </video>
+            <div class="time">
+                <div class="rec"></div>5시간 18분
+            </div>
+            <div class="close"><img src="resource/withme/closeicon.png" onclick="withme()"></div>
+        </div>
+
+        <div id="title">
+            <div>
+                <span class="keyword orange">대학생</span>
+                <span class="keyword black">스터디윗미</span>
+            </div>
+
+            <div class="title">
+                서울시립대 미대생 밤샘과제
+            </div>
+
+            <div class="streamprofile">
+                <img class="profile" src="resource/withme/profile01.png">시대생
+                <div class="follow">
+                    팔로우
+                </div>
+
+                <div class="following">
+                    팔로잉
+                </div>
+            </div>
+        </div>
+
+        <div id="chatting">
+            <div class="title">채팅</div>
+            <div id="chat">
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile02.png">
+                        <p class="name">design22</p>
+                    </div>
+                    <p class="content">시대생님 입학할 때부터 맥북 쓰셨나요?</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile03.png">
+                        <p class="name">꿈지</p>
+                    </div>
+                    <p class="content">혹시 마우스 뭐 쓰시나요? 요새 손목 너무<br>아파요ㅠ</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile04.png">
+                        <p class="name">시디23학번</p>
+                    </div>
+                    <div class="content" style="margin-bottom: 0.5em;">혹시 입시하실 때 내신 어떠셨나요 ㅠㅠ<br>시립대 너무 가고 싶어요
+                    </div>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile06.png">
+                        <p class="name">디자인관두겟읍니다</p>
+                    </div>
+                    <p class="content">오늘도 밤샘하시네요... 저도^^</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile06.png">
+                        <p class="name">디자인관두겟읍니다</p>
+                    </div>
+                    <p class="content">다음에 그룹스 같이해욘 시대생님</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile01.png">
+                        <p class="name">시대생<span class="streamer">스트리머</span></p>
+                    </div>
+                    <p class="content">좋아요 디자인님,,, 켜주심 들어갈게요</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile01.png">
+                        <p class="name">시대생<span class="streamer">스트리머</span></p>
+                    </div>
+                    <div class="content" style="margin-bottom: 0.5em;">질문 주신 것들은 나중에 피드에 다<br>올릴게요!
+                    </div>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile02.png">
+                        <p class="name">개미가짖어요</p>
+                    </div>
+                    <p class="content">보통 하루에 작업 몇 시간 하시나요?</p>
+                </div>
+
+                <div class="p_chat">
+                    <div style="display: inline-block;">
+                        <img class="profile" src="resource/withme/profile04.png">
+                        <p class="name">벼랑위에당뇨</p>
+                    </div>
+                    <div class="content" style="margin-bottom: 0.5em;">시대생님 오늘도 응원해용 ❤︎
+                    </div>
+                </div>
+
+                <div>
+                    ㅇ
+                </div>
+            </div>
+        </div>
+        <div id="message">
+            <input type="text" class="message" placeholder="메시지 보내기">
+            <button name="heart" class="heart">
+                <img src="resource/withme/heart.png">응원
+            </button>
+        </div>
+    </div>
+
+    <div id="group">
+        <div id="title">
+            <div>
+                <span class="keyword orange">대학생</span>
+                <span class="keyword black">그룹스터디</span>
+            </div>
+
+            <div class="title">
+                캠 켜고 같이 공부해요
+            </div>
+        </div>
+
+        <div id="cam">
+            <div class="cam">
+                <video autoplay muted playsinline loop style="width: 100%">
+                    <source src="resource/group/01.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <div class="time">
+                    <div class="rec"></div>5시간 18분
+                </div>
+                <div class="micicon"><img src="resource/group/mic.png"></div>
+                <div class="name">교수님과제너무많아요</div>
+            </div>
+
+            <div class="cam">
+                <video autoplay muted playsinline loop style="width: 100%">
+                    <source src="resource/group/02.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <div class="time">
+                    <div class="rec"></div>3시간 1분
+                </div>
+                <div class="name">종강하게해줘</div>
+            </div>
+
+            <div class="cam">
+                <video autoplay muted playsinline loop style="width: 100%">
+                    <source src="resource/group/03.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <div class="time">
+                    <div class="rec"></div>1시간 57분
+                </div>
+                <div class="name">개미가짖어요</div>
+            </div>
+
+            <div class="cam">
+                <video id="on" autoplay muted playsinline loop style="width: 100%">
+                    <source src="resource/group/04.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <img id="off" src="resource/group/off.png">
+                <div class="time">
+                    <div class="rec"></div>48분
+                </div>
+                <div class="name">오늘은자고싶다</div>
+                <div id="micoff" class="micicon"><img src="resource/group/mic.png"></div>
+            </div>
+        </div>
+
+        <div id="btns">
+            <img id="camonicon" class="btn" src="resource/group/camon.png">
+            <img id="camofficon" class="btn" src="resource/group/camoff.png">
+            <img id="close" class="btn" onclick="group()" src="resource/group/close.png">
+            <img id="miconicon" class="btn" src="resource/group/micon.png">
+            <img id="micofficon" class="btn" src="resource/group/micoff.png">
         </div>
     </div>
 
