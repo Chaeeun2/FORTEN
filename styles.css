@@ -23,7 +23,9 @@ html {
     z-index: 98;
 }
 
-#following {
+#following,
+#store,
+#my {
     z-index: 91;
 }
 
@@ -265,6 +267,16 @@ a {
     margin: 0.3em 0;
     color: #9F9F9F;
     letter-spacing: -0.04em;
+}
+
+#homebanner {
+    margin: 4em 2.5em 2.5em 2.5em;
+    width: 56em;
+}
+
+#homebanner img {
+    width: 100%;
+    border-radius: 0.7em;
 }
 
 
@@ -822,4 +834,161 @@ a {
     letter-spacing: -0.04em;
     display: block;
     word-break: break-all;
+}
+
+
+
+/* 스토어 */
+#store {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow: scroll;
+    display: none;
+}
+
+#store01 {
+    width: 90%;
+    padding: 3em 3em 17em 3em;
+}
+
+#store input {
+    width: 12.3em;
+    font-size: 2.7em;
+    color: #a3a3a3;
+    background: #F4F4F4;
+    border: 0px;
+    display: inline;
+    vertical-align: middle;
+    margin-left: 0.4em;
+}
+
+#store input:focus {
+    outline: none;
+}
+
+#store .searchicon {
+    display: inline;
+    vertical-align: middle;
+}
+
+#store #searchwrap {
+    vertical-align: middle;
+    background: #F4F4F4;
+    padding: 1.5em 1.5em;
+    border-radius: 1.2em;
+    width: 76%;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.cart {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3.7em;
+}
+
+#store .title {
+    margin-bottom: 0.85em;
+    font-size: 3.3em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+#store .itemimg {
+    width: 100%;
+    border-radius: 0.7em;
+}
+
+#store .imgwrap {
+    width: 26.7em;
+    margin-bottom: 1.3em;
+}
+
+#store .keyword {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.2em;
+    padding: 4px 10px 7px 10px;
+    margin-right: 8px;
+}
+
+#store .orange {
+    background: #FFAF38;
+    color: black;
+}
+
+#store .titlewrap {
+    width: 25em;
+    margin-top: 1.8em;
+    margin-bottom: 4.5em;
+}
+
+#store .itemtitle {
+    font-weight: 500;
+    font-size: 2.4em;
+    margin: 0.5em 0 0.2em 0;
+    letter-spacing: -0.04em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+#store .price {
+    font-weight: 600;
+    font-size: 2.4em;
+    margin: 0;
+    color: #FFAF38;
+    letter-spacing: -0.04em;
+}
+
+#store .price1 {
+    color: #C2C2C2;
+    letter-spacing: -0.04em;
+    text-decoration: line-through;
+    margin-right: 0.3em;
+}
+
+#storenavs {
+    margin-top: 18em;
+    padding: 2.3em;
+    border-bottom: 1px solid #DBDBDB;
+    text-align: left;
+}
+
+.storenavs {
+    display: inline;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0.8em 0.3em;
+}
+
+#storenavs .allnav {
+    border-bottom: 5px solid rgba(0, 0, 0, 100);
+}
+
+#storenavs .salenav {
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+#storenavs .newnav {
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+#storenavs .bestnav {
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+#storebanner {
+    margin: 4em 3em 1.2em 3em;
+    width: 55em;
+}
+
+#storebanner img {
+    width: 100%;
+    border-radius: 0.7em;
 }

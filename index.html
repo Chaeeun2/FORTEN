@@ -81,6 +81,10 @@
                 </div>
             </div>
 
+            <div id="homebanner" onclick="store()">
+                <img src="resource/home/banner.jpg">
+            </div>
+
             <div id="home02">
                 <p class="title">꿈지님께 자극이 될 포테너</p>
                 <div class="studysmall" onclick="withme()">
@@ -191,6 +195,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div id="withme">
@@ -575,11 +580,121 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="script.js"></script>
+        <div id="store">
+            <div
+                style="position: fixed; background: white; padding: 10em 3em 3em 3em; width: 100%; z-index: 98; height: 6em;">
+                <div id="searchwrap">
+                    <img class="searchicon" src="resource/following/search.png">
+                    <input type="text" class="search" placeholder="상품 검색하기">
+                </div>
+                <img class="cart" src="resource/store/carticon.png">
+            </div>
+
+            <div id="storenavs">
+                <div class="storenavs allnav">전체</div>
+                <div class="storenavs salenav">SALE</div>
+                <div class="storenavs newnav">NEW</div>
+                <div class="storenavs bestnav">BEST</div>
+            </div>
+
+            <div id="storebanner">
+                <img src="resource/store/banner.jpg">
+            </div>
+
+            <div id="store01">
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                    <div class="items sale best">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item1.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">BEST</span>
+                                <p class="itemtitle">위클리 스케줄러 (3종)</p>
+                                <p class="price"><span class="price1">10,000원</span>9,000원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items sale best">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item2.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">BEST</span>
+                                <p class="itemtitle">비접착 메모지 (3종)</p>
+                                <p class="price"><span class="price1">3,000원</span>2,700원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items sale best">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item3.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">BEST</span>
+                                <p class="itemtitle">볼펜 (2종)</p>
+                                <p class="price"><span class="price1">2,000원</span>1,800원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items sale new">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item4.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">NEW</span>
+                                <p class="itemtitle">에코백 (2종)</p>
+                                <p class="price"><span class="price1">10,000원</span>9,000원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items sale new">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item5.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">NEW</span>
+                                <p class="itemtitle">무선노트 (3종)</p>
+                                <p class="price"><span class="price1">4,000원</span>3,600원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items sale new">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="itemimg" src="resource/store/item6.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">SALE</span>
+                                <span class="keyword orange">NEW</span>
+                                <p class="itemtitle">후드집업 (2종)</p>
+                                <p class="price"><span class="price1">30,000원</span>27,000원</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

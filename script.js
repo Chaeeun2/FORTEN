@@ -85,6 +85,11 @@ function group() {
     }
 };
 
+function store() {
+    $('#home').fadeOut('fast');
+    $('#store').fadeIn('fast');
+};
+
 
 // 스터디윗미
 function blink() {
@@ -132,3 +137,43 @@ $('#micofficon').click(function () {
     $('#micoff').fadeOut(150);
     $('#miconicon').fadeIn(150);
 });
+
+
+//스토어
+$('.allnav').click(function () {
+    $('.sale').fadeIn('fast')
+    $('.allnav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
+    $('.salenav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+})
+$('.salenav').click(function () {
+    $('.sale').fadeIn('fast')
+    $('.allnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.salenav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
+    $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+})
+$('#storebanner').click(function () {
+    $('.sale').fadeIn('fast')
+    $('.allnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.salenav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
+    $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+})
+$('.newnav').click(function () {
+    $('.new').fadeIn('fast')
+    $('.best').fadeOut('fast')
+    $('.allnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.salenav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
+    $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+})
+$('.bestnav').click(function () {
+    $('.best').fadeIn('fast')
+    $('.new').fadeOut('fast')
+    $('.allnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.salenav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
+    $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
+})
