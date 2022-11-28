@@ -16,371 +16,564 @@
 
 
 <body>
-    <div id="header"><img src="resource/home/logo.png"></div>
+    <div id="back">
+        <div id="header"><img src="resource/home/logo.png"></div>
 
-    <div id="nav">
-        <div id="homenav"><img id="homeicon" class="navicon" src="resource/home/homeicon2.png">
-            <p class="navtxt">홈</p>
-        </div>
+        <div id="nav">
+            <div id="homenav"><img id="homeicon" class="navicon" src="resource/home/homeicon2.png">
+                <p class="navtxt">홈</p>
+            </div>
 
-        <div id="storenav"><img id="storeicon" class="navicon" src="resource/home/storeicon1.png">
-            <p class="navtxt">스토어</p>
-        </div>
+            <div id="storenav"><img id="storeicon" class="navicon" src="resource/home/storeicon1.png">
+                <p class="navtxt">스토어</p>
+            </div>
 
-        <div id="plusnav" onclick="modal_visibility()"><img id="plusicon" src="resource/home/plusicon1.png">
-        </div>
+            <div id="plusnav" onclick="modal_visibility()"><img id="plusicon" src="resource/home/plusicon1.png">
+            </div>
 
-        <div id="follownav"><img id="followicon" class="navicon" src="resource/home/followicon1.png">
-            <p class="navtxt">팔로잉</p>
-        </div>
+            <div id="follownav"><img id="followicon" class="navicon" src="resource/home/followicon1.png">
+                <p class="navtxt">팔로잉</p>
+            </div>
 
-        <div id="mynav"><img id="myicon" class="navicon" src="resource/home/myicon1.png">
-            <p class="navtxt">MY</p>
-        </div>
-    </div>
-
-    <div id="modal">
-        <div class="modalbg"></div>
-        <div class="modal">
-            <p class="modaltitle">공부 시작하기</p>
-            <p class="modaltxt" onclick="withme()" style="border-bottom: 1px solid #e1e1e1">스터디윗미<br><span
-                    class="des">내가 캠을
-                    켜고, 다른
-                    포테너들이
-                    시청합니다.</span></p>
-            <p class="modaltxt" onclick="group()" style="border-bottom: 1px solid #e1e1e1">그룹스터디<br><span
-                    class="des">여러명의 포테너가
-                    함께 캠을
-                    켜고
-                    공부합니다.</span></p>
-            <p class="modaltxt">게시<br><span class="des">공부를 인증하거나 정보를 공유해보세요.</span></p>
-        </div>
-    </div>
-
-    <div id="home">
-        <div id="home01">
-            <p class="title">가장 열공 중인 포테너</p>
-            <div class="studylarge" onclick="withme()">
-                <div style="position: relative;">
-                    <img class="studyimg" src="resource/home/img1.png">
-                    <div class="time">12시간 17분</div>
-                </div>
-                <div>
-                    <span class="keyword orange">LEET</span>
-                    <span class="keyword black">스터디윗미</span>
-                    <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
-                            class="peoplenumber">150</span>
-                    </div>
-                    <p class="studytitle">50분 공부 10분 휴식</p>
-                    <p class="nickname">포텐포테너</p>
-                </div>
+            <div id="mynav"><img id="myicon" class="navicon" src="resource/home/myicon1.png">
+                <p class="navtxt">MY</p>
             </div>
         </div>
 
-        <div id="home02">
-            <p class="title">꿈지님께 자극이 될 포테너</p>
-            <div class="studysmall" onclick="withme()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img2.jpg">
-                        <div class="time">5시간 18분</div>
+        <div id="modal">
+            <div class="modalbg"></div>
+            <div class="modal">
+                <p class="modaltitle">공부 시작하기</p>
+                <p class="modaltxt" onclick="withme()" style="border-bottom: 1px solid #e1e1e1">스터디윗미<br><span
+                        class="des">내가 캠을
+                        켜고, 다른
+                        포테너들이
+                        시청합니다.</span></p>
+                <p class="modaltxt" onclick="group()" style="border-bottom: 1px solid #e1e1e1">그룹스터디<br><span
+                        class="des">여러명의 포테너가
+                        함께 캠을
+                        켜고
+                        공부합니다.</span></p>
+                <p class="modaltxt">게시<br><span class="des">공부를 인증하거나 정보를 공유해보세요.</span></p>
+            </div>
+        </div>
+
+        <div id="home">
+            <div id="home01">
+                <p class="title">가장 열공 중인 포테너</p>
+                <div class="studylarge" onclick="withme()">
+                    <div style="position: relative;">
+                        <video class="studyimg" autoplay muted playsinline loop>
+                            <source src="resource/withme/video3.mp4" type="video/mp4">
+                            </source>
+                        </video>
+                        <div class="time">12시간 17분</div>
                     </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
+                    <div>
+                        <span class="keyword orange">LEET</span>
                         <span class="keyword black">스터디윗미</span>
                         <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
-                                class="peoplenumber">30</span>
+                                class="peoplenumber">150</span>
                         </div>
-                        <p class="studytitle">서울시립대학교 미대생 밤샘과제어쩌구저꺼주</p>
+                        <p class="studytitle">서울시립대학교 미대생 밤샘과제</p>
                         <p class="nickname">시대생</p>
                     </div>
                 </div>
             </div>
 
-            <div class="studysmall" onclick="group()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img3.jpg">
-                        <div class="time">2시간 9분</div>
-                    </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
-                        <span class="keyword black">그룹스터디</span>
-                        <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
-                                class="peoplenumber">4</span>
+            <div id="home02">
+                <p class="title">꿈지님께 자극이 될 포테너</p>
+                <div class="studysmall" onclick="withme()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img1.png">
+                            <div class="time">5시간 18분</div>
                         </div>
-                        <p class="studytitle">캠 켜고 같이 공부해요</p>
-                        <p class="nickname">교수님과제너무많아요</p>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">스터디윗미</span>
+                            <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
+                                    class="peoplenumber">30</span>
+                            </div>
+                            <p class="studytitle">50분 공부 10분 휴식</p>
+                            <p class="nickname">포텐포테너</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="studysmall" onclick="group()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img4.jpg">
-                        <div class="time">3시간 48분</div>
-                    </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
-                        <span class="keyword black">그룹스터디</span>
-                        <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
-                                class="peoplenumber">8</span>
+                <div class="studysmall" onclick="group()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img3.jpg">
+                            <div class="time">2시간 9분</div>
                         </div>
-                        <p class="studytitle">오늘은 술 안 먹기 약속~~</p>
-                        <p class="nickname">전농동맥북잡이</p>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">그룹스터디</span>
+                            <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                    class="peoplenumber">4</span>
+                            </div>
+                            <p class="studytitle">캠 켜고 같이 공부해요</p>
+                            <p class="nickname">교수님과제너무많아요</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="studysmall" onclick="withme()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img6.jpg">
-                        <div class="time">58분</div>
-                    </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
-                        <span class="keyword black">스터디윗미</span>
-                        <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
-                                class="peoplenumber">5</span>
+                <div class="studysmall" onclick="group()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img4.jpg">
+                            <div class="time">3시간 48분</div>
                         </div>
-                        <p class="studytitle">오늘은 제발 파일 안 날리게 해주세요</p>
-                        <p class="nickname">컴퓨터오락가락맨</p>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">그룹스터디</span>
+                            <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
+                                    class="peoplenumber">8</span>
+                            </div>
+                            <p class="studytitle">오늘은 술 안 먹기 약속~~</p>
+                            <p class="nickname">전농동맥북잡이</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="studysmall" onclick="withme()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img5.jpg">
-                        <div class="time">2시간 12분</div>
-                    </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
-                        <span class="keyword black">스터디윗미</span>
-                        <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
-                                class="peoplenumber">83</span>
+                <div class="studysmall" onclick="withme()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img6.jpg">
+                            <div class="time">58분</div>
                         </div>
-                        <p class="studytitle">다 쉬었니? 이제 할일을 하자</p>
-                        <p class="nickname">디자인관두겟읍니다</p>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">스터디윗미</span>
+                            <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                    class="peoplenumber">5</span>
+                            </div>
+                            <p class="studytitle">오늘은 제발 파일 안 날리게 해주세요</p>
+                            <p class="nickname">컴퓨터오락가락맨</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="studysmall" onclick="group()">
-                <div style="display: flex;">
-                    <div class="imgwrap">
-                        <img class="studyimg" src="resource/home/img7.jpg">
-                        <div class="time">1시간 23분</div>
-                    </div>
-                    <div class="titlewrap">
-                        <span class="keyword orange">대학생</span>
-                        <span class="keyword black">그룹스터디</span>
-                        <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
-                                class="peoplenumber">3</span>
+                <div class="studysmall" onclick="withme()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img5.jpg">
+                            <div class="time">2시간 12분</div>
                         </div>
-                        <p class="studytitle">저 잠들면 깨워주세요</p>
-                        <p class="nickname">하루4시간만잠</p>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">스터디윗미</span>
+                            <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                    class="peoplenumber">83</span>
+                            </div>
+                            <p class="studytitle">다 쉬었니? 이제 할일을 하자</p>
+                            <p class="nickname">디자인관두겟읍니다</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="studysmall" onclick="group()">
+                    <div style="display: flex;">
+                        <div class="imgwrap">
+                            <img class="studyimg" src="resource/home/img7.jpg">
+                            <div class="time">1시간 23분</div>
+                        </div>
+                        <div class="titlewrap">
+                            <span class="keyword orange">대학생</span>
+                            <span class="keyword black">그룹스터디</span>
+                            <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                    class="peoplenumber">3</span>
+                            </div>
+                            <p class="studytitle">저 잠들면 깨워주세요</p>
+                            <p class="nickname">하루4시간만잠</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="withme">
-        <div id="cam">
-            <video autoplay muted playsinline loop style="width: 100%">
-                <source src="resource/withme/video3.mp4" type="video/mp4">
-                </source>
-            </video>
-            <div class="time">
-                <div class="rec"></div>5시간 18분
-            </div>
-            <div class="close"><img src="resource/withme/closeicon.png" onclick="withme()"></div>
-        </div>
-
-        <div id="title">
-            <div>
-                <span class="keyword orange">대학생</span>
-                <span class="keyword black">스터디윗미</span>
+        <div id="withme">
+            <div id="cam">
+                <video autoplay muted playsinline loop style="width: 100%">
+                    <source src="resource/withme/video3.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <div class="time">
+                    <div class="rec"></div>12시간 17분
+                </div>
+                <div class="close"><img src="resource/withme/closeicon.png" onclick="withme()"></div>
             </div>
 
-            <div class="title">
-                서울시립대 미대생 밤샘과제
-            </div>
-
-            <div class="streamprofile">
-                <img class="profile" src="resource/withme/profile01.png">시대생
-                <div class="follow">
-                    팔로우
-                </div>
-
-                <div class="following">
-                    팔로잉
-                </div>
-            </div>
-        </div>
-
-        <div id="chatting">
-            <div class="title">채팅</div>
-            <div id="chat">
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile02.png">
-                        <p class="name">design22</p>
-                    </div>
-                    <p class="content">시대생님 입학할 때부터 맥북 쓰셨나요?</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile03.png">
-                        <p class="name">꿈지</p>
-                    </div>
-                    <p class="content">혹시 마우스 뭐 쓰시나요? 요새 손목 너무<br>아파요ㅠ</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile04.png">
-                        <p class="name">시디23학번</p>
-                    </div>
-                    <div class="content" style="margin-bottom: 0.5em;">혹시 입시하실 때 내신 어떠셨나요 ㅠㅠ<br>시립대 너무 가고 싶어요
-                    </div>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile06.png">
-                        <p class="name">디자인관두겟읍니다</p>
-                    </div>
-                    <p class="content">오늘도 밤샘하시네요... 저도^^</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile06.png">
-                        <p class="name">디자인관두겟읍니다</p>
-                    </div>
-                    <p class="content">다음에 그룹스 같이해욘 시대생님</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile01.png">
-                        <p class="name">시대생<span class="streamer">스트리머</span></p>
-                    </div>
-                    <p class="content">좋아요 디자인님,,, 켜주심 들어갈게요</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile01.png">
-                        <p class="name">시대생<span class="streamer">스트리머</span></p>
-                    </div>
-                    <div class="content" style="margin-bottom: 0.5em;">질문 주신 것들은 나중에 피드에 다<br>올릴게요!
-                    </div>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile02.png">
-                        <p class="name">개미가짖어요</p>
-                    </div>
-                    <p class="content">보통 하루에 작업 몇 시간 하시나요?</p>
-                </div>
-
-                <div class="p_chat">
-                    <div style="display: inline-block;">
-                        <img class="profile" src="resource/withme/profile04.png">
-                        <p class="name">벼랑위에당뇨</p>
-                    </div>
-                    <div class="content" style="margin-bottom: 0.5em;">시대생님 오늘도 응원해용 ❤︎
-                    </div>
-                </div>
-
+            <div id="title">
                 <div>
-                    ㅇ
+                    <span class="keyword orange">대학생</span>
+                    <span class="keyword black">스터디윗미</span>
                 </div>
+
+                <div class="title">
+                    서울시립대 미대생 밤샘과제
+                </div>
+
+                <div class="streamprofile">
+                    <img class="profile" src="resource/withme/profile01.png">시대생
+                    <div class="follow">
+                        팔로우
+                    </div>
+
+                    <div class="following">
+                        팔로잉
+                    </div>
+                </div>
+            </div>
+
+            <div id="chatting">
+                <div class="title">채팅</div>
+                <div id="chat">
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile02.png">
+                            <p class="name">design22</p>
+                        </div>
+                        <p class="content">시대생님 입학할 때부터 맥북 쓰셨나요?</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile03.png">
+                            <p class="name">꿈지</p>
+                        </div>
+                        <p class="content">혹시 마우스 뭐 쓰시나요? 요새 손목 너무<br>아파요ㅠ</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile04.png">
+                            <p class="name">시디23학번</p>
+                        </div>
+                        <div class="content" style="margin-bottom: 0.5em;">혹시 입시하실 때 내신 어떠셨나요 ㅠㅠ<br>시립대 너무 가고 싶어요
+                        </div>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile06.png">
+                            <p class="name">디자인관두겟읍니다</p>
+                        </div>
+                        <p class="content">오늘도 밤샘하시네요... 저도^^</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile06.png">
+                            <p class="name">디자인관두겟읍니다</p>
+                        </div>
+                        <p class="content">다음에 그룹스 같이해욘 시대생님</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile01.png">
+                            <p class="name">시대생<span class="streamer">스트리머</span></p>
+                        </div>
+                        <p class="content">좋아요 디자인님,,, 켜주심 들어갈게요</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile01.png">
+                            <p class="name">시대생<span class="streamer">스트리머</span></p>
+                        </div>
+                        <div class="content" style="margin-bottom: 0.5em;">질문 주신 것들은 나중에 피드에 다<br>올릴게요!
+                        </div>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile02.png">
+                            <p class="name">개미가짖어요</p>
+                        </div>
+                        <p class="content">보통 하루에 작업 몇 시간 하시나요?</p>
+                    </div>
+
+                    <div class="p_chat">
+                        <div style="display: inline-block;">
+                            <img class="profile" src="resource/withme/profile04.png">
+                            <p class="name">벼랑위에당뇨</p>
+                        </div>
+                        <div class="content" style="margin-bottom: 0.5em;">시대생님 오늘도 응원해용 ❤︎
+                        </div>
+                    </div>
+
+                    <div>
+                        ㅇ
+                    </div>
+                </div>
+            </div>
+            <div id="message">
+                <input type="text" class="message" placeholder="메시지 보내기">
+                <button name="heart" class="heart">
+                    <img src="resource/withme/heart.png">응원
+                </button>
             </div>
         </div>
-        <div id="message">
-            <input type="text" class="message" placeholder="메시지 보내기">
-            <button name="heart" class="heart">
-                <img src="resource/withme/heart.png">응원
-            </button>
+
+        <div id="group">
+            <div id="title">
+                <div>
+                    <span class="keyword orange">대학생</span>
+                    <span class="keyword black">그룹스터디</span>
+                </div>
+
+                <div class="title">
+                    캠 켜고 같이 공부해요
+                </div>
+            </div>
+
+            <div id="cam">
+                <div class="cam">
+                    <video autoplay muted playsinline loop style="width: 100%">
+                        <source src="resource/group/01.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                    <div class="time">
+                        <div class="rec"></div>5시간 18분
+                    </div>
+                    <div class="micicon"><img src="resource/group/mic.png"></div>
+                    <div class="name">교수님과제너무많아요</div>
+                </div>
+
+                <div class="cam">
+                    <video autoplay muted playsinline loop style="width: 100%">
+                        <source src="resource/group/02.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                    <div class="time">
+                        <div class="rec"></div>3시간 1분
+                    </div>
+                    <div class="name">종강하게해줘</div>
+                </div>
+
+                <div class="cam">
+                    <video autoplay muted playsinline loop style="width: 100%">
+                        <source src="resource/group/03.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                    <div class="time">
+                        <div class="rec"></div>1시간 57분
+                    </div>
+                    <div class="name">개미가짖어요</div>
+                </div>
+
+                <div class="cam">
+                    <video id="on" autoplay muted playsinline loop style="width: 100%">
+                        <source src="resource/group/04.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                    <img id="off" src="resource/group/off.png">
+                    <div class="time">
+                        <div class="rec"></div>48분
+                    </div>
+                    <div class="name">오늘은자고싶다</div>
+                    <div id="micoff" class="micicon"><img src="resource/group/mic.png"></div>
+                </div>
+            </div>
+
+            <div id="btns">
+                <img id="camonicon" class="btn" src="resource/group/camon.png">
+                <img id="camofficon" class="btn" src="resource/group/camoff.png">
+                <img id="close" class="btn" onclick="group()" src="resource/group/close.png">
+                <img id="miconicon" class="btn" src="resource/group/micon.png">
+                <img id="micofficon" class="btn" src="resource/group/micoff.png">
+            </div>
         </div>
-    </div>
 
-    <div id="group">
-        <div id="title">
-            <div>
-                <span class="keyword orange">대학생</span>
-                <span class="keyword black">그룹스터디</span>
-            </div>
-
-            <div class="title">
-                캠 켜고 같이 공부해요
-            </div>
-        </div>
-
-        <div id="cam">
-            <div class="cam">
-                <video autoplay muted playsinline loop style="width: 100%">
-                    <source src="resource/group/01.mp4" type="video/mp4">
-                    </source>
-                </video>
-                <div class="time">
-                    <div class="rec"></div>5시간 18분
+        <div id="following">
+            <div
+                style="position: fixed; background: white; padding: 10em 3em 3em 3em; width: 100%; z-index: 98; height: 6em;">
+                <div id="searchwrap">
+                    <img class="searchicon" src="resource/following/search.png">
+                    <input type="text" class="search" placeholder="포테너 찾기">
                 </div>
-                <div class="micicon"><img src="resource/group/mic.png"></div>
-                <div class="name">교수님과제너무많아요</div>
             </div>
 
-            <div class="cam">
-                <video autoplay muted playsinline loop style="width: 100%">
-                    <source src="resource/group/02.mp4" type="video/mp4">
-                    </source>
-                </video>
-                <div class="time">
-                    <div class="rec"></div>3시간 1분
+            <div id="following01">
+                <p class="title">열공 중인 포테너</p>
+                <div style="display: flex; overflow-x: scroll;">
+                    <div class="studysmall" onclick="withme()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img2.jpg">
+                                <div class="time">12시간 17분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">스터디윗미</span>
+                                <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
+                                        class="peoplenumber">30</span>
+                                </div>
+                                <p class="studytitle">서울시립대 미대생 밤샘과제</p>
+                                <p class="nickname">시대생</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="group()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img3.jpg">
+                                <div class="time">2시간 9분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">그룹스터디</span>
+                                <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                        class="peoplenumber">4</span>
+                                </div>
+                                <p class="studytitle">캠 켜고 같이 공부해요</p>
+                                <p class="nickname">교수님과제너무많아요</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="group()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img4.jpg">
+                                <div class="time">3시간 48분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">그룹스터디</span>
+                                <div class="people"><img class="peopleicon" src="resource/home/peopleicon1.png"><span
+                                        class="peoplenumber">8</span>
+                                </div>
+                                <p class="studytitle">오늘은 술 안 먹기 약속~~</p>
+                                <p class="nickname">전농동맥북잡이</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="withme()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img6.jpg">
+                                <div class="time">58분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">스터디윗미</span>
+                                <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                        class="peoplenumber">5</span>
+                                </div>
+                                <p class="studytitle">오늘은 제발 파일 안 날리게 해...</p>
+                                <p class="nickname">컴퓨터오락가락맨</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="withme()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img5.jpg">
+                                <div class="time">2시간 12분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">스터디윗미</span>
+                                <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                        class="peoplenumber">83</span>
+                                </div>
+                                <p class="studytitle">다 쉬었니? 이제 할일을 하자</p>
+                                <p class="nickname">디자인관두겟읍니다</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="group()">
+                        <div>
+                            <div class="imgwrap">
+                                <img class="studyimg" src="resource/home/img7.jpg">
+                                <div class="time">1시간 23분</div>
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">대학생</span>
+                                <span class="keyword black">그룹스터디</span>
+                                <div class="people"><img class="peopleicon2" src="resource/home/peopleicon2.png"><span
+                                        class="peoplenumber">3</span>
+                                </div>
+                                <p class="studytitle">저 잠들면 깨워주세요</p>
+                                <p class="nickname">하루4시간만잠</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="name">종강하게해줘</div>
             </div>
 
-            <div class="cam">
-                <video autoplay muted playsinline loop style="width: 100%">
-                    <source src="resource/group/03.mp4" type="video/mp4">
-                    </source>
-                </video>
-                <div class="time">
-                    <div class="rec"></div>1시간 57분
+            <div id="following02">
+                <p class="title">포텐플러스</p>
+                <div>
+                    <div class="studysmall" onclick="withme()">
+                        <div style="display: flex;">
+                            <div class="imgwrap">
+                                <img class="feedimg" src="resource/following/img01.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">공부인증</span>
+                                <p class="studycontent">하핫 포트폴리오 작업 끄읏
+                                    ...~ N시간만에 급하게 만든
+                                    것치고 나쁘지 않은 것 같...</p>
+                                <p class="nickname">시대생</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="withme()">
+                        <div style="display: flex;">
+                            <div class="imgwrap">
+                                <img class="feedimg" src="resource/following/img02.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">QnA</span>
+                                <p class="studycontent">저는 버티컬 마우스 아니면
+                                    작업이 안 되더라고요ㅠ 미
+                                    대생들 손목 지켜...</p>
+                                <p class="nickname">디자인관두겟읍니다</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="withme()">
+                        <div style="display: flex;">
+                            <div class="imgwrap">
+                                <img class="feedimg" src="resource/following/img03.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">정보글</span>
+                                <p class="studycontent">마우스 추천합니다,,, 솔직히
+                                    이거 너무 국민마우스라 추
+                                    천이라고 하기도 민망...</p>
+                                <p class="nickname">꿈지</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studysmall" onclick="withme()">
+                        <div style="display: flex;">
+                            <div class="imgwrap">
+                                <img class="feedimg" src="resource/following/img04.jpg">
+                            </div>
+                            <div class="titlewrap">
+                                <span class="keyword orange">소통</span>
+                                <p class="studycontent">오늘 계속 과제할 것
+                                    같아서 그룹스 켜려는데 혹
+                                    시들어오실 분 있으신가요?!</p>
+                                <p class="nickname">꿈지</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="name">개미가짖어요</div>
             </div>
-
-            <div class="cam">
-                <video id="on" autoplay muted playsinline loop style="width: 100%">
-                    <source src="resource/group/04.mp4" type="video/mp4">
-                    </source>
-                </video>
-                <img id="off" src="resource/group/off.png">
-                <div class="time">
-                    <div class="rec"></div>48분
-                </div>
-                <div class="name">오늘은자고싶다</div>
-                <div id="micoff" class="micicon"><img src="resource/group/mic.png"></div>
-            </div>
-        </div>
-
-        <div id="btns">
-            <img id="camonicon" class="btn" src="resource/group/camon.png">
-            <img id="camofficon" class="btn" src="resource/group/camoff.png">
-            <img id="close" class="btn" onclick="group()" src="resource/group/close.png">
-            <img id="miconicon" class="btn" src="resource/group/micon.png">
-            <img id="micofficon" class="btn" src="resource/group/micoff.png">
         </div>
     </div>
 

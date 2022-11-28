@@ -1,3 +1,50 @@
+//네비게이션
+$("#homenav").click(function () {
+    $("#homeicon").attr("src", "resource/home/homeicon2.png");
+    $("#storeicon").attr("src", "resource/home/storeicon1.png");
+    $("#followicon").attr("src", "resource/home/followicon1.png");
+    $("#myicon").attr("src", "resource/home/myicon1.png");
+
+    $("#home").fadeIn('fast');
+    $("#following").fadeOut('fast');
+    $("#store").fadeOut('fast');
+    $("#my").fadeOut('fast');
+})
+$("#storenav").click(function () {
+    $("#homeicon").attr("src", "resource/home/homeicon1.png");
+    $("#storeicon").attr("src", "resource/home/storeicon2.png");
+    $("#followicon").attr("src", "resource/home/followicon1.png");
+    $("#myicon").attr("src", "resource/home/myicon1.png");
+
+    $("#store").fadeIn('fast');
+    $("#following").fadeOut('fast');
+    $("#home").fadeOut('fast');
+    $("#my").fadeOut('fast');
+})
+$("#follownav").click(function () {
+    $("#homeicon").attr("src", "resource/home/homeicon1.png");
+    $("#storeicon").attr("src", "resource/home/storeicon1.png");
+    $("#followicon").attr("src", "resource/home/followicon2.png");
+    $("#myicon").attr("src", "resource/home/myicon1.png");
+
+    $("#store").fadeOut('fast');
+    $("#following").fadeIn('fast');
+    $("#home").fadeOut('fast');
+    $("#my").fadeOut('fast');
+})
+$("#mynav").click(function () {
+    $("#homeicon").attr("src", "resource/home/homeicon1.png");
+    $("#storeicon").attr("src", "resource/home/storeicon1.png");
+    $("#followicon").attr("src", "resource/home/followicon1.png");
+    $("#myicon").attr("src", "resource/home/myicon2.png");
+
+    $("#store").fadeOut('fast');
+    $("#following").fadeOut('fast');
+    $("#home").fadeOut('fast');
+    $("#my").fadeIn('fast');
+})
+
+
 //모달
 $("#plusnav").click(function () {
     if ($('#modal').is(":hidden")) {

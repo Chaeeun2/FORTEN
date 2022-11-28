@@ -15,6 +15,23 @@ html {
     opacity: 0;
 }
 
+#home {
+    z-index: 90;
+}
+
+#nav {
+    z-index: 98;
+}
+
+#following {
+    z-index: 91;
+}
+
+#group,
+#withme {
+    z-index: 99;
+}
+
 #home p {
     margin: 0;
     color: #1f1f1f;
@@ -31,7 +48,7 @@ a {
     padding: 9em 3em 2em 3em;
     background: white;
     width: 100vw;
-    z-index: 96;
+    z-index: 90;
     border-bottom: 2px solid #e2e2e2;
 }
 
@@ -62,10 +79,11 @@ a {
 
 .navtxt {
     font-size: 1.8em;
+    margin: 0.2em;
 }
 
 .navicon {
-    width: 3.5em;
+    width: 4em;
 }
 
 #modal {
@@ -626,4 +644,182 @@ a {
 
 #group #off {
     width: 100%;
+}
+
+
+
+/* 팔로잉 */
+#following {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow: scroll;
+    display: none;
+}
+
+#following input {
+    width: 12.3em;
+    font-size: 2.7em;
+    color: #a3a3a3;
+    background: #F4F4F4;
+    border: 0px;
+    display: inline;
+    vertical-align: middle;
+    margin-left: 0.4em;
+}
+
+#following input:focus {
+    outline: none;
+}
+
+#following .searchicon {
+    display: inline;
+    vertical-align: middle;
+}
+
+#following #searchwrap {
+    vertical-align: middle;
+    background: #F4F4F4;
+    padding: 1.5em 1.5em;
+    border-radius: 1.2em;
+    width: 86%;
+}
+
+#following01 {
+    margin-top: 22em;
+    padding: 0em 0em 0em 3em;
+}
+
+#following02 {
+    margin-top: 3em;
+    padding: 0em 0em 17em 3em;
+}
+
+#following .title {
+    margin-bottom: 0.85em;
+    font-size: 3.3em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+#following .studyimg {
+    width: 33em;
+    border-radius: 0.5em;
+}
+
+#following .studysmall .imgwrap {
+    position: relative;
+    width: 40%;
+    margin-right: 2.5em;
+    margin-bottom: 1.3em;
+}
+
+#following .studysmall .time {
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 2.1em;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0px 10px 3px 8px;
+    margin: 0.6em;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+#following .keyword {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.2em;
+    padding: 4px 10px 7px 10px;
+    margin-right: 8px;
+}
+
+#following .orange {
+    background: #FFAF38;
+    color: black;
+}
+
+#following .black {
+    background: black;
+    color: #FFAF38;
+}
+
+#following .people {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 1.35em;
+}
+
+#following .peopleicon {
+    width: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+#following .peopleicon2 {
+    width: 2.2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+#following .peoplenumber {
+    font-size: 1.4em;
+    color: #9F9F9F;
+}
+
+#following .studysmall .titlewrap {
+    display: inline;
+    width: 55%;
+    margin-top: 0.6em;
+}
+
+#following .studytitle {
+    font-weight: 500;
+    font-size: 2.6em;
+    margin: 0.2em 0;
+    letter-spacing: -0.04em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+#following .nickname {
+    font-weight: 400;
+    font-size: 1.9em;
+    margin: 0.3em 0;
+    color: #9F9F9F;
+    letter-spacing: -0.04em;
+}
+
+#following .feedimg {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+#following02 .imgwrap {
+    width: 25em !important;
+}
+
+#following02 .titlewrap {
+    padding-top: 2em;
+    padding-left: 0.5em;
+    width: 26em !important;
+}
+
+#following .studycontent {
+    font-weight: 400;
+    font-size: 2.4em;
+    margin: 0.7em 0;
+    line-height: 1.6;
+    letter-spacing: -0.04em;
+    display: block;
+    word-break: break-all;
 }
