@@ -15,6 +15,22 @@ html {
     opacity: 0;
 }
 
+#loading {
+    width: 100vw;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    background: #F8AD00;
+    height: 100vh;
+    top: 0;
+    display: none;
+}
+
+#loading img {
+    width: 70%;
+    margin: 43em auto;
+}
+
 #home {
     z-index: 90;
 }
@@ -31,7 +47,7 @@ html {
 
 #group,
 #withme {
-    z-index: 99;
+    z-index: 98;
 }
 
 #home p {
@@ -67,7 +83,7 @@ a {
     background: white;
     width: 87vw;
     border-top: 2px solid #e2e2e2;
-    z-index: 99;
+    z-index: 97;
     padding: 2em 4em 5.5em 4em;
 }
 
@@ -92,7 +108,7 @@ a {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 97;
+    z-index: 96;
     top: 0;
     display: none;
 }
@@ -102,7 +118,7 @@ a {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 97;
+    z-index: 95;
     top: 0;
 }
 

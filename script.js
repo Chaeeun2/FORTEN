@@ -68,7 +68,11 @@ $("html").animate({ "opacity": "1" }, 400);
 
 function withme() {
     if ($('#withme').is(":hidden")) {
-        $('#withme').fadeIn('fast');
+        $('#loading').fadeIn('fast')
+        setTimeout(function () {
+            $('#loading').fadeOut('fast')
+            $('#withme').fadeIn('fast');
+        }, 2000)
     }
     else if ($('#withme').is(":visible")) {
         $('#withme').fadeOut('fast');
@@ -81,7 +85,12 @@ function group() {
         $('#group').fadeOut('fast');
     }
     else {
-        $('#group').fadeIn('fast');
+        $('#loading').fadeIn('fast')
+        setTimeout(function () {
+            $('#loading').fadeOut('fast')
+            $('#group').fadeIn('fast');
+        }, 2000)
+
     }
 };
 
