@@ -61,6 +61,11 @@ $("#plusnav").click(function () {
     }
 });
 
+$(".start").click(function () {
+    $('#modal').fadeIn('fast');
+    $("#plusicon").attr("src", "resource/home/plusicon2.png");
+});
+
 $(".modalbg").click(function () {
     $('#modal').fadeOut('fast');
     $("#plusicon").attr("src", "resource/home/plusicon1.png");
@@ -104,6 +109,13 @@ function store() {
     $("#homeicon").attr("src", "resource/home/homeicon1.png");
     $("#storeicon").attr("src", "resource/home/storeicon2.png");
 };
+
+function my() {
+    $('#following').fadeOut('fast');
+    $('#my').fadeIn('fast');
+    $("#followicon").attr("src", "resource/home/followicon1.png");
+    $("#myicon").attr("src", "resource/home/myicon2.png");
+}
 
 
 // 스터디윗미
