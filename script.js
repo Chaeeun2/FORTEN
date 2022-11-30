@@ -188,3 +188,44 @@ $('.bestnav').click(function () {
     $('.newnav').css('border-bottom', '5px solid rgba(0, 0, 0, 0)')
     $('.bestnav').css('border-bottom', '5px solid rgba(0, 0, 0, 100)')
 })
+
+$(document).ready(function () {
+    $(".qnacontent").hide();
+    $(".reviewcontent").hide();
+})
+
+$('.postnav').click(function () {
+    $('.postcontent').fadeIn('fast')
+    $(".qnacontent").fadeOut('fast');
+    $(".reviewcontent").fadeOut('fast');
+    $('.postnav').css('border-bottom', '6px solid rgba(0, 0, 0, 100)')
+    $('.qnanav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.reviewnav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.postnav').css('font-weight', '600')
+    $('.qnanav').css('font-weight', '500')
+    $('.reviewnav').css('font-weight', '500')
+})
+
+$('.qnanav').click(function () {
+    $('.postcontent').fadeOut('fast')
+    $(".qnacontent").fadeIn('fast');
+    $(".reviewcontent").fadeOut('fast');
+    $('.postnav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.qnanav').css('border-bottom', '6px solid rgba(0, 0, 0, 100)')
+    $('.reviewnav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.postnav').css('font-weight', '500')
+    $('.qnanav').css('font-weight', '600')
+    $('.reviewnav').css('font-weight', '500')
+})
+
+$('.reviewnav').click(function () {
+    $('.postcontent').fadeOut('fast')
+    $(".qnacontent").fadeOut('fast');
+    $(".reviewcontent").fadeIn('fast');
+    $('.postnav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.qnanav').css('border-bottom', '6px solid rgba(0, 0, 0, 0)')
+    $('.reviewnav').css('border-bottom', '6px solid rgba(0, 0, 0, 100)')
+    $('.postnav').css('font-weight', '500')
+    $('.qnanav').css('font-weight', '500')
+    $('.reviewnav').css('font-weight', '600')
+})

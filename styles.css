@@ -1019,6 +1019,7 @@ a {
     background: white;
     overflow: scroll;
     padding-top: 6.5em;
+    display: none;
 }
 
 #my p {
@@ -1124,12 +1125,12 @@ a {
 
 #mynavs .qnanav {
     border-bottom: 6px solid rgba(0, 0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #mynavs .reviewnav {
     border-bottom: 6px solid rgba(0, 0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #my .image {
@@ -1166,7 +1167,7 @@ a {
 #my .heart img,
 #my .comment img {
     vertical-align: middle;
-    margin-right: 3px;
+    margin-right: 6px;
 }
 
 #my .content {
@@ -1174,4 +1175,12 @@ a {
     margin-top: 1.5em;
     letter-spacing: -0.02em;
     margin-bottom: 6em;
+}
+
+#my .reviewtitle {
+    font-size: 1.2em;
+    margin-top: 1em;
+    letter-spacing: -0.02em;
+    margin-bottom: 5em;
+    font-weight: 500;
 }
