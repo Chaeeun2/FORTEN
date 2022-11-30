@@ -1137,7 +1137,7 @@ a {
 }
 
 #my .keyword {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     border-radius: 0.5em;
     padding: 4px 10px 7px 10px;
@@ -1171,14 +1171,14 @@ a {
 
 #my .content {
     font-size: 30px;
-    margin-top: 1.5em;
+    margin-top: 1em;
     letter-spacing: -0.02em;
     margin-bottom: 3em;
 }
 
 #my .reviewtitle {
-    font-size: 33px;
-    margin-top: 1em;
+    font-size: 35px;
+    margin-top: 0.6em;
     letter-spacing: -0.02em;
     margin-bottom: 3em;
     font-weight: 500;
