@@ -5,6 +5,7 @@ $("#homenav").click(function () {
     $("#followicon").attr("src", "resource/home/followicon1.png");
     $("#myicon").attr("src", "resource/home/myicon1.png");
 
+    $("#header").fadeIn('fast');
     $("#home").fadeIn('fast');
     $("#following").fadeOut('fast');
     $("#store").fadeOut('fast');
@@ -16,6 +17,7 @@ $("#storenav").click(function () {
     $("#followicon").attr("src", "resource/home/followicon1.png");
     $("#myicon").attr("src", "resource/home/myicon1.png");
 
+    $("#header").fadeOut('fast');
     $("#store").fadeIn('fast');
     $("#following").fadeOut('fast');
     $("#home").fadeOut('fast');
@@ -27,6 +29,7 @@ $("#follownav").click(function () {
     $("#followicon").attr("src", "resource/home/followicon2.png");
     $("#myicon").attr("src", "resource/home/myicon1.png");
 
+    $("#header").fadeOut('fast');
     $("#store").fadeOut('fast');
     $("#following").fadeIn('fast');
     $("#home").fadeOut('fast');
@@ -38,6 +41,7 @@ $("#mynav").click(function () {
     $("#followicon").attr("src", "resource/home/followicon1.png");
     $("#myicon").attr("src", "resource/home/myicon2.png");
 
+    $("#header").fadeOut('fast');
     $("#store").fadeOut('fast');
     $("#following").fadeOut('fast');
     $("#home").fadeOut('fast');
