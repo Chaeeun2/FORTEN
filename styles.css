@@ -1019,6 +1019,7 @@ a {
     background: white;
     overflow: scroll;
     padding-top: 6.5em;
+    display: none;
 }
 
 #my p {
@@ -1137,7 +1138,7 @@ a {
 }
 
 #my .keyword {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
     border-radius: 0.5em;
     padding: 4px 10px 7px 10px;
@@ -1170,16 +1171,16 @@ a {
 }
 
 #my .content {
-    font-size: 32px;
+    font-size: 35px;
     margin-top: 1em;
     letter-spacing: -0.02em;
     margin-bottom: 3em;
 }
 
 #my .reviewtitle {
-    font-size: 38px;
+    font-size: 45px;
     margin-top: 0.6em;
     letter-spacing: -0.02em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     font-weight: 500;
 }
