@@ -97,6 +97,8 @@ function group() {
 function store() {
     $('#home').fadeOut('fast');
     $('#store').fadeIn('fast');
+    $("#homeicon").attr("src", "resource/home/homeicon1.png");
+    $("#storeicon").attr("src", "resource/home/storeicon2.png");
 };
 
 
